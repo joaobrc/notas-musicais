@@ -1,6 +1,16 @@
-site_name: My Docs
-
+site_name: Notas Musicais
+repo_url: https://github.com/joaobrc/notas-musicais
+repo_name: 'joaobrc/notas-musicais'
+edit_uri: tree/main/docs
 
 theme:
   name: material
-  
+  language: pt-BR
+  logo: assests/note.png
+  favicon: assests/note.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
