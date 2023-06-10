@@ -30,10 +30,10 @@ def escala(tonica: str, tonalidade: str) -> dict[str, list[str]]:
         intevalos = ESCALAS[tonalidade]
         tonica_pos = NOTAS.index(tonica)
     except ValueError:
-        raise ValueError('Nota inexistente tente uma dessas {}'.format(NOTAS))
+        raise ValueError('Nota inexistente, tente uma dessas {}'.format(NOTAS))
     except KeyError:
         raise KeyError(
-            'Tonalidade Inexisten ou não disponive, '
+            'Tonalidade Inexistente ou não disponivel, '
             'tente uma destas {}'.format(list(ESCALAS.keys()))
         )
 
