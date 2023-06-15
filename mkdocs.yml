@@ -6,8 +6,10 @@ edit_uri: tree/main/docs
 theme:
   name: material
   language: pt-BR
-  logo: assests/note.png
-  favicon: assests/note.png
+  palette:
+    primary: red
+  logo: assets/note.png
+  favicon: assets/note.png
 
 markdown_extensions:
   - attr_list
